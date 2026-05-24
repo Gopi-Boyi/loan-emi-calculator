@@ -28,7 +28,8 @@ A clean and responsive **Loan EMI Calculator** built with vanilla HTML, CSS, and
 
 ## 📸 Screenshot
 
-> *(Add a screenshot of your project here)*
+> Screenshot.png
+
 
 ---
 
