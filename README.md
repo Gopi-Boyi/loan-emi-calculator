@@ -22,7 +22,7 @@ A clean and responsive **Loan EMI Calculator** built with vanilla HTML, CSS, and
 
 ## 🖥️ Demo
 
-> 🔗 **Live Site:** [YOUR_USERNAME.github.io/loan-emi-calculator](https://YOUR_USERNAME.github.io/loan-emi-calculator)
+> 🔗 **Live Site:** [loan-emi-calculator-jet.vercel.app](https://loan-emi-calculator-jet.vercel.app)
 
 ---
 
