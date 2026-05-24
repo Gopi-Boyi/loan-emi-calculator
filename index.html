@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loan EMI Calculator with JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="wrapper">
+        <h2>Loan EMI Calculator</h2>
+        <span class="div-bar"></span>
+
+        <div class="calculator">
+            <div class="calculator-input">
+                <label>Loan Amount (Rs.):</label>
+                <input type="number" id="loan_amount" placeholder="e.g. 500000">
+            </div>
+            <div class="calculator-input">
+                <label>Loan Tenure (Year):</label>
+                <input type="number" id="loan_tenure" placeholder="e.g. 5">
+            </div>
+            <div class="calculator-input">
+                <label>Interest Rate (%):</label>
+                <input type="number" id="loan_interest" placeholder="e.g. 8.5">
+            </div>
+            <div class="calculator-input">
+                <button class="calculator-btn">Calculate EMI</button>
+            </div>
+        </div>
+
+        <div class="calculator-result" id="result-section" style="display:none;">
+            <div class="chart-wrapper">
+                <canvas id="loanChart"></canvas>
+            </div>
+            <ul>
+                <li>Monthly Loan EMI : <span class="loan_emi"></span></li>
+                <li>Principle Amount : <span class="loan_principle"></span></li>
+                <li>Loan on Interest : <span class="loan_interest_rate"></span></li>
+                <li>Total Amount to be paid : <span class="loan_total"></span></li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="calculator.js"></script>
+</body>
+</html>
