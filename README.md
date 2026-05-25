@@ -102,7 +102,7 @@ loan-emi-calculator/
 
 **Your Name**
 - GitHub: [Gopi-Boyi](https://github.com/Gopi-Boyi)
-- LinkedIn: [LinkedIn](www.linkedin.com/in/gopi-boyi)
+- LinkedIn: [www.linkedin.com/in/gopi-boyi](www.linkedin.com/in/gopi-boyi)
 
 ---
 
